@@ -48,6 +48,11 @@
     padding: 10px;
   }
 
+  .sing a:hover {
+    background-color: transparent;
+    color: #00a0eb;
+  }
+
   .form {
     height: 80px;
     width: 100%;
@@ -150,6 +155,10 @@
     text-decoration: none;
     font-size: 27px;
     border-radius: 5px;
+  }
+
+  .light-house a:hover {
+    background-color: #103a79;
   }
 
   .display {
@@ -330,6 +339,10 @@
     cursor: pointer;
   }
 
+  .explore a:hover {
+    background-color: #103a79;
+  }
+
   nav {
     width: 50%;
     text-align: center;
@@ -356,6 +369,10 @@
     height: 150px;
     text-align: center;
     background-color: white;
+  }
+
+  nav .card-icon:hover {
+    background-color: whitesmoke;
   }
 
   .our-agents {
@@ -387,6 +404,10 @@
   .agent-picture input[type="image"] {
     width: 80%;
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+  }
+
+  .agent-picture input[type="image"]:hover {
+    width: 70%;
   }
 
   .our-agents .agent-picture {
