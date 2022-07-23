@@ -38,6 +38,11 @@
     padding: 10px;
   }
 
+  .sing a:hover {
+    background-color: transparent;
+    color: #00a0eb;
+  }
+
   .form {
     width: 100%;
     text-align: center;
@@ -133,6 +138,10 @@
     font-size: 11px;
     margin-top: 10px;
     border-radius: 5px;
+  }
+
+  .light-house a:hover {
+    background-color: #103a79;
   }
 
   .display {
@@ -240,8 +249,6 @@
     text-align: center;
   }
 
-  /* ------------- */
-
   section.property-sale {
     width: 100%;
     display: grid;
@@ -312,6 +319,10 @@
     cursor: pointer;
   }
 
+  .explore a:hover {
+    background-color: #103a79;
+  }
+
   nav {
     width: 100%;
     text-align: center;
@@ -335,6 +346,10 @@
     width: 300px;
     height: 150px;
     text-align: center;
+    background-color: whitesmoke;
+  }
+
+  nav .card-icon:hover {
     background-color: whitesmoke;
   }
 
@@ -366,6 +381,10 @@
 
   .agent-picture input[type="image"] {
     width: 90%;
+  }
+
+  .agent-picture input[type="image"]:hover {
+    width: 70%;
   }
 
   .our-agents .first {
